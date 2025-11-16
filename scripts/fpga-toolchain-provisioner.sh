@@ -99,6 +99,16 @@ apt-get clean
 rm -rf /var/lib/apt/lists/*
 
 
-## TODO add these 
+# # TODO add these 
 # git clone https://github.com/FPGAwars/Alhambra-II-FPGA
 # pipx install apio
+# #If you want better test automation
+# pip install cocotb
+# # For UART communication from Go
+# go get go.bug.st/serial
+# cat >> ~/.bashrc << 'EOF'
+# # FPGA aliases
+# alias wave='gtkwave'
+# alias sim='iverilog -o sim.vvp'
+# alias run='vvp sim.vvp'
+# EOF

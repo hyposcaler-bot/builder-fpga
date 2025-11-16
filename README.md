@@ -1,3 +1,7 @@
+
+packer templates to build simple dev enviroment for alhambra II 
+
+
 # From your build host
 ```
 scp debian-12-bios-x86_64.qcow2 root@$PROXMOXHOST:/tmp/
